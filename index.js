@@ -58,13 +58,13 @@ console.log('Exercise 6')
 console.log(userProfile)
 
 // Exercise 8
-const describeSmth = (noun, adjective) => {
+const describeSmth = (noun = 'cat', adjective = 'white') => {
   console.log(`The ${noun} is ${adjective}.`)
 }
 console.log('Exercise 8')
 
 describeSmth('dog', 'white')
-
+describeSmth()
 // Exercise 9
 
 let pizza = 'tasty'
